@@ -1,6 +1,7 @@
 name: Create & Release UnityPackage
 
 on:
+  workflow_dispatch:
   push:
     branches: |
       Release
